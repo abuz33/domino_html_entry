@@ -9,18 +9,18 @@ let startingTile
 /// DOM elements
 const game = document.querySelector('#game')
 
-// Create Name func
-const fixTileName = (arr) => arr.join('-')
+// // Create Name func
+// const fixTileName = (arr) => arr.join('-')
 
-/// creating Image func
-/// src would be either domino_back or domino_tiles
-const createImage = (tiles, src, domEl) => {
-  tiles.map((tile) => {
-    const img = document.createElement('img')
-    img.src = `./assets/${src}/${fixTileName(tile)}.jpg`
-    domEl.appendChild(img)
-  })
-}
+// /// creating Image func
+// /// src would be either domino_back or domino_tiles
+// const createImage = (tiles, src, domEl) => {
+//   tiles.map((tile) => {
+//     const img = document.createElement('img')
+//     img.src = `./assets/${src}/${fixTileName(tile)}.jpg`
+//     domEl.appendChild(img)
+//   })
+// }
 
 //Create Element
 function createAppend(tag, content, domEl) {
